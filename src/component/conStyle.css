@@ -4,3 +4,13 @@
     margin: 20px;
     padding: 20px;
 }
+
+.font_bold{
+ font-weight: bold;
+}
+
+.country-visited{
+
+    background: rebeccapurple;
+    color: white;
+}

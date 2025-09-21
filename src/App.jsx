@@ -4,6 +4,7 @@ import './App.css'
 import Countries from './component/countries'
 
 
+
 function App() {
 
 
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<p>wait for sometime...</p>} >
+    <Suspense fallback={<p>wait for country list...</p>} >
 
       <Countries countriesPromises={countriesPromises}></Countries>
     
