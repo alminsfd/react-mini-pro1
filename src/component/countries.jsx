@@ -21,7 +21,7 @@ const Countries = ({ countriesPromises }) => {
         <div>
             <h1 style={{
                 textAlign: 'center'
-            }} >countries list {countries.length}</h1>
+            }} >countries list of {countries.length}</h1>
             <h3>Total country visited:{visitedCountries.length}</h3>
             <h4>Total flag visited {visitedFlag.length}</h4>
             <div>
