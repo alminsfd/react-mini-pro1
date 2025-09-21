@@ -1,7 +1,7 @@
 
 import { Suspense } from 'react'
 import './App.css'
-import Countries from './countries component/countries.jsx'
+import Countries from './component/countries'
 
 
 function App() {
